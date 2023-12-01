@@ -33,6 +33,8 @@ const Timer = () => {
         if(hour == "" && minute == "" && second == "")return;
         if(second != 0){
             setSecond("0"+--second);
+        }else if(minute != 0  && second != 0){
+            setMinute("0"+minute);
         }
     }
 

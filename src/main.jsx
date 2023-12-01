@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import App1 from './App1.jsx'
-import Timer from './Timer.jsx';
+// import Timer from './Timer.jsx';
 import './index.css'
+import AppProptypes from './AppProptypes.jsx';
+// import RefHookUse from './components/RefHookUse';
+import AppLazyLoading from './AppLazyLoading';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -18,6 +21,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App1 /> */}
 
     {/* Countdown timer, user can enter val and start */}
-    <Timer />
+    {/* <Timer /> */}
+
+    {/* Validation to props example using PropTypes */}
+    {/* <AppProptypes /> */}
+
+    {/* Use of ref using useRef() hook example */}
+    {/* Stopwatch example */}
+    {/* <RefHookUse /> */}
+
+    {/* Lazy loading in react */}
+    <AppLazyLoading />
   </React.StrictMode>,
 )
