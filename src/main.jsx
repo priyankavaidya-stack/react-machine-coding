@@ -8,7 +8,8 @@ import './index.css'
 // import RefHookUse from './components/RefHookUse';
 // import AppLazyLoading from './AppLazyLoading';
 // import TernaryOperator from './components/TernaryOperator';
-import AppHighOrder from './AppHighOrder';
+// import AppHighOrder from './AppHighOrder';
+import AppHOC from './AppHOC';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -41,7 +42,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <TernaryOperator /> */}
 
       {/* Higher Order Components */}
-      <AppHighOrder />
+      {/* <AppHighOrder /> */}
+
+      {/* Another Proxy props HOC Example */}
+      <AppHOC />
       
     </React.StrictMode>
   </Router>,
