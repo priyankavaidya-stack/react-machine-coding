@@ -9,7 +9,11 @@ import './index.css'
 // import AppLazyLoading from './AppLazyLoading';
 // import TernaryOperator from './components/TernaryOperator';
 // import AppHighOrder from './AppHighOrder';
-import AppHOC from './AppHOC';
+// import AppHOC from './AppHOC';
+// import UseCallBack from './components/UseCallBack';
+// import ReactMemo from './components/ReactMemo';
+import Memo from './components/UseMemo';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -45,7 +49,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <AppHighOrder /> */}
 
       {/* Another Proxy props HOC Example */}
-      <AppHOC />
+      {/* <AppHOC /> */}
+
+      {/* useCallback basic example --- parent child */}
+      {/* <UseCallBack /> */}
+
+      {/* use React.Memo, refined version of useCallback() */}
+      {/* <ReactMemo /> */}
+
+      {/* useMemo example to render list */}
+      <Memo />
       
     </React.StrictMode>
   </Router>,
