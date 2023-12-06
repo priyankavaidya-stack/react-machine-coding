@@ -13,8 +13,9 @@ import './index.css'
 // import UseCallBack from './components/UseCallBack';
 // import ReactMemo from './components/ReactMemo';
 // import Memo from './components/UseMemo';
-import Memo from './components/Memo';
-
+// import Memo from './components/Memo';
+// import UpdateComponentUsingState from './components/memo/UpdateComponentUsingState';
+import UpdateMemoizedCompUsingContext from './components/memo/UpdateMemoizedCompUsingContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -62,8 +63,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <Memo /> */}
 
       {/* React.memo() example to skip ren-rendering child comp */}
-      <Memo />
+      {/* <Memo /> */}
 
+      {/* Update Component Using State with React.memo */}
+      {/* <UpdateComponentUsingState /> */}
+
+      {/* Update Memoized Component Using Context */}
+      <UpdateMemoizedCompUsingContext />
+      
     </React.StrictMode>
   </Router>,
 )

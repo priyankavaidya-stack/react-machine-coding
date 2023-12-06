@@ -5,3 +5,11 @@
 input::-webkit-inner-spin-button,::-webkit-outer-spin-button{
     display: none;
 }
+
+.light{
+    background-color: white;
+}
+
+.dark {
+    background-color: blue;
+}
