@@ -15,7 +15,8 @@ import './index.css'
 // import Memo from './components/UseMemo';
 // import Memo from './components/Memo';
 // import UpdateComponentUsingState from './components/memo/UpdateComponentUsingState';
-import UpdateMemoizedCompUsingContext from './components/memo/UpdateMemoizedCompUsingContext';
+// import UpdateMemoizedCompUsingContext from './components/memo/UpdateMemoizedCompUsingContext';
+import MyComponent from './components/reducer/MyComponent';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -69,8 +70,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <UpdateComponentUsingState /> */}
 
       {/* Update Memoized Component Using Context */}
-      <UpdateMemoizedCompUsingContext />
+      {/* <UpdateMemoizedCompUsingContext /> */}
+
+      {/* useReducer use example */}
+      {/* <MyComponent /> */}
+
       
+
     </React.StrictMode>
   </Router>,
 )
