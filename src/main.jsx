@@ -12,7 +12,8 @@ import './index.css'
 // import AppHOC from './AppHOC';
 // import UseCallBack from './components/UseCallBack';
 // import ReactMemo from './components/ReactMemo';
-import Memo from './components/UseMemo';
+// import Memo from './components/UseMemo';
+import Memo from './components/Memo';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -58,8 +59,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <ReactMemo /> */}
 
       {/* useMemo example to render list */}
+      {/* <Memo /> */}
+
+      {/* React.memo() example to skip ren-rendering child comp */}
       <Memo />
-      
+
     </React.StrictMode>
   </Router>,
 )

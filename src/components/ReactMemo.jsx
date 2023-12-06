@@ -1,5 +1,7 @@
 import React, { useCallback , useState } from 'react'
 
+// My component re-renders when a prop is an object, array, or function 
+// React compares old and new props by shallow equality: that is, it considers whether each new prop is reference-equal to the old prop. If you create a new object or array each time the parent is re-rendered, even if the individual elements are each the same, React will still consider it to be changed. Similarly, if you create a new function when rendering the parent component, React will consider it to have changed even if the function has the same definition. To avoid this, simplify props or memoize props in the parent component.
 
 // Using useCallback() with React.memo to ensure child component doesn't re-render after first time rendered.
 
@@ -15,7 +17,7 @@ const ReactMemo = () => {
     },[]);
 
     // not using useCallback as handleClick is not that complex func, so React.memo() alone cannot prevent
-    // re-rendering of child component if you see the output
+    // re-rendering of child component because props are functions here, for that you need to memoize function or values inside it with useCallback or useMemo
     // const handleClick = () => {
     //     setCount(prevCount => prevCount + 1);
     // };
