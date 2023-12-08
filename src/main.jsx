@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css'
+import ParentContext from './components/ContextAPI/ParentContext';
+import DarkModeContext from './components/ContextAPI/DarkModeContext';
 // import App1 from './App1.jsx'
 // import Timer from './Timer.jsx';
 // import AppProptypes from './AppProptypes.jsx';
@@ -16,7 +18,11 @@ import './index.css'
 // import Memo from './components/Memo';
 // import UpdateComponentUsingState from './components/memo/UpdateComponentUsingState';
 // import UpdateMemoizedCompUsingContext from './components/memo/UpdateMemoizedCompUsingContext';
-import MyComponent from './components/reducer/MyComponent';
+// import MyComponent from './components/reducer/MyComponent';
+// import ReducerSwitchCase from './components/reducer/ReducerSwitchCase';
+// import ReducerToDo from './components/reducer/ReducerToDo';
+import UpdateObjectContext from './components/ContextAPI/UpdateObjectContext';
+import MultipleContext from './components/ContextAPI/MultipleContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -75,8 +81,23 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* useReducer use example */}
       {/* <MyComponent /> */}
 
-      
+      {/* useReducer with initialState and Switch case */}
+      {/* <ReducerSwitchCase /> */}
 
+      {/* TodoList Reducer */}
+      {/* <ReducerToDo /> */}
+
+      {/* createContext, useContext, react contextAPI */}
+      {/* <ParentContext /> */}
+
+      {/* Context API example of switching dark and light mode */}
+      {/* <DarkModeContext /> */}
+
+      {/* To update object through context */}
+      {/* <UpdateObjectContext /> */}
+
+      {/* Multiple COntext in App */}
+      <MultipleContext />
     </React.StrictMode>
   </Router>,
 )
