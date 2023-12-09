@@ -21,8 +21,9 @@ import DarkModeContext from './components/ContextAPI/DarkModeContext';
 // import MyComponent from './components/reducer/MyComponent';
 // import ReducerSwitchCase from './components/reducer/ReducerSwitchCase';
 // import ReducerToDo from './components/reducer/ReducerToDo';
-import UpdateObjectContext from './components/ContextAPI/UpdateObjectContext';
-import MultipleContext from './components/ContextAPI/MultipleContext';
+// import UpdateObjectContext from './components/ContextAPI/UpdateObjectContext';
+// import MultipleContext2 from './components/ContextAPI/MultipleContext2';
+import TaskApp from './components/ContextReducerCombine/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -97,7 +98,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <UpdateObjectContext /> */}
 
       {/* Multiple COntext in App */}
-      <MultipleContext />
+      {/* <MultipleContext2 /> */}
+
+      {/* Combine API context with useReducer */}
+      <TaskApp />
     </React.StrictMode>
   </Router>,
 )
