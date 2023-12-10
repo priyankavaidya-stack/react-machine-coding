@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css'
-import ParentContext from './components/ContextAPI/ParentContext';
-import DarkModeContext from './components/ContextAPI/DarkModeContext';
+// import ParentContext from './components/ContextAPI/ParentContext';
+// import DarkModeContext from './components/ContextAPI/DarkModeContext';
 // import App1 from './App1.jsx'
 // import Timer from './Timer.jsx';
 // import AppProptypes from './AppProptypes.jsx';
@@ -23,7 +23,8 @@ import DarkModeContext from './components/ContextAPI/DarkModeContext';
 // import ReducerToDo from './components/reducer/ReducerToDo';
 // import UpdateObjectContext from './components/ContextAPI/UpdateObjectContext';
 // import MultipleContext2 from './components/ContextAPI/MultipleContext2';
-import TaskApp from './components/ContextReducerCombine/App';
+// import TaskApp from './components/ContextReducerCombine/App';
+import Form from './components/UseStateForm/Form';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -101,7 +102,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <MultipleContext2 /> */}
 
       {/* Combine API context with useReducer */}
-      <TaskApp />
+      {/* <TaskApp /> */}
+
+      {/* handling form with useState example */}
+      <Form />
+      
     </React.StrictMode>
   </Router>,
 )
