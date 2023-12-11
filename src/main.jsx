@@ -24,7 +24,8 @@ import './index.css'
 // import UpdateObjectContext from './components/ContextAPI/UpdateObjectContext';
 // import MultipleContext2 from './components/ContextAPI/MultipleContext2';
 // import TaskApp from './components/ContextReducerCombine/App';
-import Form from './components/UseStateForm/Form';
+// import LoginUseState from './components/UseStateForm/LoginUseState';
+import LoginUseReducer from './components/UseStateForm/LoginUseReducer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -105,7 +106,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <TaskApp /> */}
 
       {/* handling form with useState example */}
-      <Form />
+      {/* <LoginUseState /> */}
+      <LoginUseReducer />
       
     </React.StrictMode>
   </Router>,
