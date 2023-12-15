@@ -25,7 +25,13 @@ import './index.css'
 // import MultipleContext2 from './components/ContextAPI/MultipleContext2';
 // import TaskApp from './components/ContextReducerCombine/App';
 // import LoginUseState from './components/UseStateForm/LoginUseState';
-import LoginUseReducer from './components/UseStateForm/LoginUseReducer';
+// import LoginUseReducer from './components/UseStateForm/LoginUseReducer';
+// import Counter from './components/useEffect/Counter';
+// import Calculate from './components/useEffect/Calculate';
+// import Chat from './components/useEffect/ChatRoom';
+// import CursorPointer from './components/useEffect/CursorPointer';
+// import Animation from './components/useEffect/Animation';
+import Modal from './components/useEffect/Modal';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -107,7 +113,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
       {/* handling form with useState example */}
       {/* <LoginUseState /> */}
-      <LoginUseReducer />
+      {/* <LoginUseReducer /> */}
+
+      {/* UseEffect hook example */}
+      {/* <Counter /> */}
+      {/* <Calculate /> */}
+      {/* <Chat /> */}
+      {/* <CursorPointer /> */}
+      {/* <Animation /> */}
+      <Modal />
       
     </React.StrictMode>
   </Router>,
