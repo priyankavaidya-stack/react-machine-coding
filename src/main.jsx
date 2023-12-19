@@ -31,7 +31,14 @@ import './index.css'
 // import Chat from './components/useEffect/ChatRoom';
 // import CursorPointer from './components/useEffect/CursorPointer';
 // import Animation from './components/useEffect/Animation';
-import Modal from './components/useEffect/Modal';
+// import Modal from './components/useEffect/Modal';
+// import ConvertJSX from './components/JSX/ConvertJSX';
+
+// custom hooks
+// import ApiData from './components/customHook/ApiData';
+// import Network from './components/customHook/CheckNetwork';
+import FormInput from './components/customHook/FormInput';
+// import DebounceComponent from './components/customHook/Debounce';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -116,13 +123,22 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <LoginUseReducer /> */}
 
       {/* UseEffect hook example */}
-      {/* <Counter /> */}
-      {/* <Calculate /> */}
-      {/* <Chat /> */}
-      {/* <CursorPointer /> */}
-      {/* <Animation /> */}
-      <Modal />
-      
+        {/* <Counter /> */}
+        {/* <Calculate /> */}
+        {/* <Chat /> */}
+        {/* <CursorPointer /> */}
+        {/* <Animation /> */}
+        {/* <Modal /> */}
+        
+      {/* Convert JSX into javascript code */}
+      {/* <ConvertJSX /> */}
+
+      {/* Custom hook in react */}
+      {/* <ApiData /> */}
+      {/* <Network /> */}
+      <FormInput />
+      {/* <DebounceComponent /> */}
+
     </React.StrictMode>
   </Router>,
 )
