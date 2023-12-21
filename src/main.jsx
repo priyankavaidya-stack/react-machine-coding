@@ -31,7 +31,8 @@ import './index.css'
 // import Chat from './components/useEffect/ChatRoom';
 // import CursorPointer from './components/useEffect/CursorPointer';
 // import Animation from './components/useEffect/Animation';
-import Modal from './components/useEffect/Modal';
+// import Modal from './components/useEffect/Modal';
+import App from './components/todolist/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -121,7 +122,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <Chat /> */}
       {/* <CursorPointer /> */}
       {/* <Animation /> */}
-      <Modal />
+      {/* <Modal /> */}
+
+      <App />
       
     </React.StrictMode>
   </Router>,
