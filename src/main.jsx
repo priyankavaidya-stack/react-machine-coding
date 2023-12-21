@@ -32,7 +32,13 @@ import './index.css'
 // import CursorPointer from './components/useEffect/CursorPointer';
 // import Animation from './components/useEffect/Animation';
 // import Modal from './components/useEffect/Modal';
-import App from './components/todolist/App';
+// import ConvertJSX from './components/JSX/ConvertJSX';
+
+// custom hooks
+// import ApiData from './components/customHook/ApiData';
+// import Network from './components/customHook/CheckNetwork';
+import FormInput from './components/customHook/FormInput';
+// import DebounceComponent from './components/customHook/Debounce';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -122,9 +128,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <Chat /> */}
       {/* <CursorPointer /> */}
       {/* <Animation /> */}
-      {/* <Modal /> */}
-
-      <App />
+      <Modal />
       
     </React.StrictMode>
   </Router>,
