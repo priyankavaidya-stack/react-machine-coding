@@ -37,8 +37,12 @@ import './index.css'
 // custom hooks
 // import ApiData from './components/customHook/ApiData';
 // import Network from './components/customHook/CheckNetwork';
-import FormInput from './components/customHook/FormInput';
+// import FormInput from './components/customHook/FormInput';
 // import DebounceComponent from './components/customHook/Debounce';
+
+// forwardRef function usage
+// import Parent from './components/forwardRef/Parent';
+import VideoApp from './components/forwardRef/VideoApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -128,7 +132,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {/* <Chat /> */}
       {/* <CursorPointer /> */}
       {/* <Animation /> */}
-      <Modal />
+      {/* <Modal /> */}
+
+      {/* forwardRef example */}
+      {/* <Parent /> */}
+      <VideoApp />
       
     </React.StrictMode>
   </Router>,
