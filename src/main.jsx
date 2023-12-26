@@ -42,7 +42,13 @@ import './index.css'
 
 // forwardRef function usage
 // import Parent from './components/forwardRef/Parent';
-import VideoApp from './components/forwardRef/VideoApp';
+// import VideoApp from './components/forwardRef/VideoApp';
+
+// useLayoutEffect hook
+// import App from './components/useLayoutEffect/App';
+
+// react portals
+import App from './components/portals/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -136,8 +142,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
       {/* forwardRef example */}
       {/* <Parent /> */}
-      <VideoApp />
-      
+      {/* <VideoApp /> */}
+
+      {/* useLayoutEffecct hook code examples */}
+      {/* <App /> */}
+
+      {/* react portsls example */}
+      <App />
+
     </React.StrictMode>
   </Router>,
 )
